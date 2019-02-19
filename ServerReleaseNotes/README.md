@@ -4,6 +4,6 @@ OpenSim.ini
 
 [ServerReleaseNotesURL]
           enabled = true
-          ServerReleaseNotesURL = "http://Example.com/release.html"
+          ServerReleaseNotesURL = "https://app.neverworldgrid.com/module/ReleaseNotes.php?"
           
 ```
