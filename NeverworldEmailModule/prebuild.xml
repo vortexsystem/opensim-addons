@@ -1,0 +1,43 @@
+<Project frameworkVersion="v4_0" name="NeverworldEmailModule" path="addon-modules/NeverworldEmailModule" type="Library">
+      <Configuration name="Debug">
+        <Options>
+          <OutputPath>../../../bin</OutputPath>
+        </Options>
+      </Configuration>
+      <Configuration name="Release">
+        <Options>
+          <OutputPath>../../../bin</OutputPath>
+        </Options>
+      </Configuration>
+
+      <ReferencePath>../../../../bin</ReferencePath>
+      <Reference name="System" localCopy="false"/>
+      <Reference name="System.Xml"/>
+      <Reference name="System.Drawing"/>
+	  <Reference name="Mono.Addins"/>
+      <Reference name="System.Runtime.Remoting"/>
+      <Reference name="DotNetOpenMail.dll"/>
+	  <Reference name="DotNetOpenMail.SmtpAuth"/>
+	  <Reference name="OpenMetaverseTypes.dll"/>
+      <Reference name="OpenMetaverse.dll"/>
+	  <Reference name="OpenMetaverse.StructuredData"/>
+      <Reference name="Axiom.MathLib.dll"/>
+      <Reference name="OpenSim.Framework"/>
+      <Reference name="OpenSim.Data" />
+      <Reference name="OpenSim.Region.Framework" />
+      <Reference name="OpenSim.Region.Environment" />
+      <Reference name="OpenSim.Framework.Console"/>
+      <Reference name="OpenSim.Framework.Servers"/>
+      <Reference name="OpenSim.Framework.Statistics"/>
+      <Reference name="OpenSim.Framework.Communications"/>
+      <Reference name="OpenSim.Region.Physics.Manager"/>
+	  <Reference name="OpenSim.Services.Interfaces"/>
+      <Reference name="Nini.dll" />
+      <Reference name="log4net.dll"/>
+      <Reference name="XMLRPC.dll"/>
+
+      <Files>
+        <Match pattern="*.cs" recurse="true"/>
+		<Match path="Resources" pattern="*.*" buildAction="EmbeddedResource"/>
+      </Files>
+</Project>
