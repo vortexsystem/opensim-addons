@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Quill.Addon.Module")]
-[assembly: AssemblyDescription("Addons for OpenSim")]
+[assembly: AssemblyTitle("Never.Addon.Module")]
+[assembly: AssemblyDescription("The Neverworld Grid Release Notes Module")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Quill Littlefeather")]
-[assembly: AssemblyProduct("Quill.Addon.Module")]
-[assembly: AssemblyCopyright("2015 Quill Littlefeather")]
+[assembly: AssemblyCompany("Neverworld Grid")]
+[assembly: AssemblyProduct("Never.Addon.Module")]
+[assembly: AssemblyCopyright("2019 Neverworld Grid")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
