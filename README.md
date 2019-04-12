@@ -1,6 +1,6 @@
 # OpenSimulator Addons
 Neverworld Specific Simulator and Robust Addons
-
+A Few Addons are copied from OpenSimSearch and Similar modules, but have the names changed, so that when we modify it for Vortex, we don't have confusion
 ## Simulator Addons
 
 ### Server Release Notes
